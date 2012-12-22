@@ -4,8 +4,8 @@ define( function(require) {
       , Templates = require('Templates');
     return {
         intialize: function() {
-		    AppHelper.doSomething();
-		    $('#app-container').append( Templates.someView() );
-	    }
+		AppHelper.doSomething();
+		$('#app-container').append( Templates.someView() );
+	}
     }
 });
