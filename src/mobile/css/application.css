@@ -1,0 +1,9 @@
+@import url('../../shared/css/common.css');
+
+#some-view {
+	padding: 10px;
+	height: 420px;
+}
+#some-view h1 {
+	font-size: 2em;
+}
