@@ -1,5 +1,5 @@
 // shared/app/Application.js
-define( function( require ) {
+define( function(require) {
     var AppHelper = require('AppHelper')
       , Templates = require('Templates');
     return {
